@@ -1,4 +1,6 @@
 body {
+    background-color: #FCED56;
+
     padding: 0;
     margin: 0;
 }
@@ -33,6 +35,9 @@ body {
     text-decoration: none; 
     margin-left: 40px;
     color: black;
+}
+.options a:hover {
+    color: grey;
 }
 /*___________________________________________*/
 .explore {
@@ -99,11 +104,57 @@ body {
 /*________________________________________________________*/
 .gallery {
     width: 100%;
-    height: 1500px;
-}
-.gallery div {
 
 }
+.gallery div {
+    width: 49%;
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+    display: inline-block;
+}
 .gallery div img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+/*________________________________________________________*/
+footer {
+    background-color: #D9A51C;
     
+}
+.logo2 {
+    padding-left: 2%;
+
+    width: 29%;
+    display: inline-block;
+}
+.logo2 img {
+    width: 90px;
+    padding-left: 23%;
+}
+.logo2 p {
+    
+}
+.us {
+    width: 29%;
+    display: inline-block;
+}
+.follow {
+    width: 29%;
+    display: inline-block;
+    
+    padding-left: 10%;
+
+}
+.follow img {
+    width: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+.final {
+    background-color: black;
+    padding: 0%;
 }
