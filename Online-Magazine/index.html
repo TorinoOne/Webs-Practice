@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,27 +8,55 @@
     <title>Magazine</title>
 </head>
 <body>
-    <div class="divHeader">
+    <div class="div_header">
         <header class="header">
-            <div class="headerDiv">
-                <a href="" class="logo"></a>
-                <h2 class="date"></h2>
-                <div class="sections"></div>
+            <div class="header_div">
+                <a href=""><img src="icons/one.png" class="logo"></a>
+                <div class="sections">
+                    <h2 class="date">Date</h2>
+                    <ul class="list">
+
+                        <li class="list_item list_item--click">
+                            <div class="list_button list_button--click">
+
+                                <img src="icons/options.png" class="list_img">
+                                <p>Sections</p>
+
+                            </div>
+
+                            <ul class="list_show">
+                                <li class="list_inside">
+                                    <a href="" class="nav_link nav_link--inside">Police</a>
+                                </li>
+
+                                <li class="list_inside">
+                                    <a href="" class="nav_link nav_link--inside">Sports</a>
+                                </li>
+
+                                <li class="list_inside">
+                                    <a href="" class="nav_link nav_link--inside">Hollywood</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
                 <div class="searcher"></div>
             </div>
         </header>
     </div>
 <!-- ------------------------------------------------------------------------- -->
-    <div class="colum1"></div>
+    <div class="colum_1"></div>
     <div class="important"></div>
-    <div class="colum2"></div>
+    <div class="colum_2"></div>
 <!-- ------------------------------------------------------------------------- -->
-    <div class="bottomNews"></div>
+    <div class="bottom_news"></div>
 <!-- ------------------------------------------------------------------------- -->
-    <div class="sliderNews"></div>
+    <div class="slider_news"></div>
 <!-- ------------------------------------------------------------------------- -->
     <div class="footer">
         <footer></footer>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
