@@ -2,47 +2,61 @@ body {
     padding: 0;
     margin: 0;
 
-    background-color: #B1E0E4
+    background-color: #85E0F0
 }
 /*______________________________________________________________________________________*/
 /*------------------------------------------------------*/
 .div_header {
     width: 100%;
-    height: 125px;
+    height: 130px;
 
     padding: 0;
 
     color: black;
-    background-color: #13BAF0;
 }
 .header {
     
 }
 .header_div {
+}
+.sections {
     display: inline-block;
+    padding-top: 0px;
 }
 .logo {
     width: 100px;
     height: 100px;
 
-    padding-top: 10px;
-    padding-left: 5px;
+    padding-top: 15px;
+    padding-left: 15px;
+
+    float: left;
+}
+.list_img2 {
+    width: 30px;
+    height: 30px;
+    
+    float: left;
+    padding-right: 16px;
 }
 .date {
+    width: 150px;
+    height: 30px;
+
+    padding-left: 0px;
+    padding-bottom: 5px;
+    float: right;
+}
+.div_list {
+    padding-top: 50px;
 
 }
-.sections {
-    padding-top: 10px;
-}
+
 /*------------------------------------------------------*/
-.list {
-
-}
 .list_item {
     width: 150px;
     overflow: hidden;
-
-    text-align: left;
+    
     list-style: none;
     
 }
@@ -51,10 +65,10 @@ body {
     gap: 1em;
 }
 .list_img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 
-    padding-top: 15px;
+    padding-top: 10px;
 
 }
 .list_button p {
@@ -63,8 +77,11 @@ body {
 /*------------------------------------------------------*/
 .list_show {
     height: 0;
+    background-color: #76D4FF;
 
     border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 4%;
 
     transition: height .4s;
     list-style: none;
@@ -74,6 +91,7 @@ body {
 }
 .nav_link {
     color: black;
+
     display: block;
     text-decoration: none;
 }
@@ -86,26 +104,31 @@ body {
 }
 /*------------------------------------------------------*/
 /*______________________________________________________________________________________*/
-.colum1 {
-
+.colum_1 {
+    background-color: #B1E0E4;
+    width: 30%;
+    padding-top: 0px;
 }
-.important {
+.new_1 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 1%;
 
+    
 }
-.colum2 {
+.new_1 p {
+    padding: 3px;
+}
+.new_img_1 {
+    width: 350px;
+    height: 210px;
 
-}
-/*--------------------*/
-.colum1 img {
+    padding-top: 6px;
+    padding-right: 15px;
+    padding-bottom: 5px;
 
+    float: left;
 }
-.important img {
-
-}
-.colum2 img {
-
-}
-/*--------------------*/
 /*______________________________________________________________________________________*/
 
 
