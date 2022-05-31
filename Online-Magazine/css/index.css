@@ -39,15 +39,24 @@ body {
     height: 30px;
     
     float: left;
+    padding-top: 25px;
+    padding-left: 40px;
     padding-right: 16px;
 }
 .date {
-    width: 150px;
-    height: 30px;
+    width: 800px;
+    height: 20px;
 
     padding-left: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     float: right;
+}
+.reloj {
+    display: inline-block;
+}
+.reloj h3 {
+    font-size: 16px;
+
 }
 .div_list {
     padding-top: 50px;
@@ -205,7 +214,7 @@ body {
 }
 /*------------------------------------------------------*/
 .title_background:hover {
-    opacity: 0.6;
+    opacity: 0.7;
 }
 /*------------------------------------------------------*/
 /*______________________________________________________________________________________*/
