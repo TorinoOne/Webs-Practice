@@ -2,7 +2,8 @@ body {
     padding: 0;
     margin: 0;
 
-    background-color: #85E0F0
+    background-color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /*______________________________________________________________________________________*/
 /*------------------------------------------------------*/
@@ -13,6 +14,7 @@ body {
     padding: 0;
 
     color: black;
+    background-color: white;
 }
 .header {
     
@@ -77,10 +79,8 @@ body {
 /*------------------------------------------------------*/
 .list_show {
     height: 0;
-    background-color: #76D4FF;
+    background-color: white;
 
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
     border-radius: 4%;
 
     transition: height .4s;
@@ -104,17 +104,28 @@ body {
 }
 /*------------------------------------------------------*/
 /*______________________________________________________________________________________*/
+/*------------------------------------------------------*/
+.all_news {
+    display: flex;
+    border-top: 3px solid black;
+}
+/*------------------------------------------------------*/
+/*______________________________________________________________________________________*/
+/*------------------------------------------------------*/
 .colum_1 {
-    background-color: #B1E0E4;
     width: 30%;
+
     padding-top: 0px;
+    padding-right: 17px;
+
+    background-color: #E3E3E3;
 }
 .new_1 {
+    height: 550px;
+
     border-right: 1px solid black;
     border-bottom: 1px solid black;
-    border-radius: 1%;
-
-    
+    border-radius: 1%; 
 }
 .new_1 p {
     padding: 3px;
@@ -129,10 +140,108 @@ body {
 
     float: left;
 }
+/*------------------------------------------------------*/
 /*______________________________________________________________________________________*/
+/*------------------------------------------------------*/
+.important {
+    width: 38%;
 
+    background-color: #E3E3E3;
+}
+.important_news {
+    width: 100%;
 
+}
+/*------------------------------------------------------*/
+.important_news1 {
+    height: 300px;
 
+    background-image: url("/images/new_img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.important_news2 {
+    height: 300px;
+
+    background-image: url("/images/new_img7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.important_news3 {
+    height: 300px;
+
+    background-image: url("/images/new_img8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.important_news4 {
+    height: 300px;
+
+    background-image: url("/images/new_img9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.important_news5 {
+    height: 300px;
+
+    background-image: url("/images/new_img11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*------------------------------------------------------*/
+.title_background {
+    width: 37.9%;
+
+    padding-top: 70px;
+
+    position: absolute;
+
+    background-color: grey;
+    opacity: 0.4;
+}
+.title {
+    text-align: center;
+    padding-top: 20px;
+}
+/*------------------------------------------------------*/
+.title_background:hover {
+    opacity: 0.6;
+}
+/*------------------------------------------------------*/
+/*______________________________________________________________________________________*/
+/*------------------------------------------------------*/
+.colum_2 {
+    width: 30%;
+
+    float: right;
+    padding-top: 0px;
+    padding-left: 17px;
+
+    background-color: #E3E3E3;
+}
+.new_2 {
+    height: 550px;
+
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 1%;    
+}
+.new_2 p {
+    padding-left: 10px;
+}
+.new_img_2 {
+    width: 350px;
+    height: 210px;
+
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+
+    float: right;
+}
+/*------------------------------------------------------*/
+/*______________________________________________________________________________________*/
 
 
 
