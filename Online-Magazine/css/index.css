@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
 
-    background-color: whitesmoke;
+    background-color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /*______________________________________________________________________________________*/
@@ -13,8 +13,8 @@ body {
 
     padding: 0;
 
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
 .header {
     
@@ -127,7 +127,7 @@ body {
     padding-top: 0px;
     padding-right: 17px;
 
-    background-color: #E3E3E3;
+    background-color: whitesmoke;
 }
 .new_1 {
     height: 550px;
@@ -155,7 +155,7 @@ body {
 .important {
     width: 38%;
 
-    background-color: #E3E3E3;
+    background-color: whitesmoke;
 }
 .important_news {
     width: 100%;
@@ -226,7 +226,7 @@ body {
     padding-top: 0px;
     padding-left: 17px;
 
-    background-color: #E3E3E3;
+    background-color: whitesmoke;
 }
 .new_2 {
     height: 550px;
@@ -251,7 +251,104 @@ body {
 }
 /*------------------------------------------------------*/
 /*______________________________________________________________________________________*/
+/*------------------------------------------------------*/
+.slider {
+    padding-top: 0px;
 
+
+    width: 95%;
+    margin: auto;
+
+    overflow: hidden;
+}
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+
+    animation: change 96s infinite alternate;
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+/*------------------------------------------------------*/
+.div_contenedor {
+    width: 700px;
+    height: 400px;
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.imagen {
+    width: 100%;
+    height: 100%;
+}
+.titulo {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+
+    padding-top: 250px;
+    position: absolute;
+
+    color: white;
+}
+.titulo:hover {
+    font-size: 70px;
+    transition: 2s;
+}
+/*------------------------------------------------------*/
+/*______________________________________________________________________________________*/
+/*------------------------------------------------------*/
+.footer {
+    color: whitesmoke;
+    background-color: black;
+}
+/*------------------------------------------------------*/
+.items {
+    display: flex;
+}
+/*------------------------------------------------------*/
+.logo_end {
+    width: 30%;
+
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.logo_end img {
+    width: 100%;
+}
+.logo_end p {
+    text-align: center;
+}
+/*------------------------------------------------------*/
+.us {
+    width: 40%;
+
+    padding-top: 20px;
+    padding-left: 200px;
+}
+.us h2 {
+
+}
+.us p {
+
+}
+/*------------------------------------------------------*/
+.follow {
+    padding-top: 120px;
+    padding-left: 100px;
+
+    display: inline-block;
+}
+.follow img {
+    width: 11%;
+    padding-left: 100px;
+}
+/*------------------------------------------------------*/
+/*______________________________________________________________________________________*/
 
 
 
