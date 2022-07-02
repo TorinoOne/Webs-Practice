@@ -1,0 +1,14 @@
+Diario Online:
+-Barra búsqueda
+-Login
+
+-Sugerencias
+-Suscripciones a Noticias
+
+-Noticias
+-Caja de comentarios
+
+-Modo Oscuro
+-Barra lateral de novedades
+
+-Noticias añadidas por cuentas autorizadas

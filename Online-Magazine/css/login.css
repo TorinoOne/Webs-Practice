@@ -1,0 +1,125 @@
+/*__________________________________________________________________*/
+/*-------------------------*/
+body{
+    font-family: sans-serif;
+
+    padding: 0;
+    margin: 0;
+
+    background-color: azure;
+}
+/*-------------------------*/
+/*__________________________________________________________________*/
+/*-------------------------*/
+.container {
+    display: flex;
+}
+/*-------------------------*/
+.presentation-ctn {
+    width: 49%;
+    padding-top: 5%;
+    padding-left: 2%;
+
+    
+}
+/*-------------------------*/
+.logo-img {
+    padding-left: 30%;
+    width: 300px;
+}
+/*-------------------------*/
+.presentation-txt {
+    padding: 50px;
+
+    text-align: center;
+}
+/*-------------------------*/
+/*__________________________________________________________________*/
+/*-------------------------*/
+.registration-ctn {
+    width: 49%;
+    
+}
+/*-------------------------*/
+.registration {
+    width: 350px;
+    height: 20px;
+
+    padding-top: 25%;
+    padding-left: 20%;
+}
+/*-------------------------*/
+.information {
+
+    border-radius: 1%;
+
+    background: #CFE5E8;
+}
+/*-------------------------*/
+.information input {
+    width: 90%;
+    height: 40px;
+    
+    margin: 15px;
+
+    border: none;
+}
+::placeholder {
+    padding-left: 10px;
+    font-size: medium;
+}
+/*-------------------------*/
+.done {
+    width: 91%;
+    height: 40px;
+
+    margin: 15px;
+    
+    border: none;
+    font-size: larger;
+    font-weight: 550;
+    background-color: #8CAED4;
+}
+.done:hover {
+    transition: all 1s;
+    background-color: #A6B5EB;
+}
+/*-------------------------*/
+.link {
+    width: 90%;
+    height: 30px;
+
+    margin: 15px;
+
+    text-align: center;
+}
+.link a {
+    text-decoration: none;
+    color: black;
+}
+/*-------------------------*/
+/*__________________________________________________________________*/
+/*-------------------------*/
+.create-acount {
+    width: 91%;
+    height: 40px;
+
+    margin: 15px;
+    
+    border: none;
+    font-size: larger;
+    font-weight: 550;
+    background-color: #8CAED4;
+}
+.create-acount:hover {
+    transition: all 1s;
+    background-color: #A6B5EB;
+}
+/*-------------------------*/
+/*__________________________________________________________________*/
+/*-------------------------*/
+.op-two {
+
+}
+/*-------------------------*/
+/*__________________________________________________________________*/
